@@ -109,7 +109,7 @@ data_analyzer_agent = LlmAgent(
 
     If the output is the users grades, output it in a table format. Be creative other times as well, and use colours plus bolding for meaningful aspects if it would enhance the output and user experience.
     
-    If the output is related to assignment information, for each of them, predict the time it would take to complete it based on its description. Then, output this data in a nicely formatted table.
+    If the output is the assignment deadlines, for each of them, predict the time it would take to complete it based on its description. Then, output this data in a nicely formatted calendar.
     
     If you don't have enough information to answer a question completely, say so and suggest what additional information might be needed.
     
